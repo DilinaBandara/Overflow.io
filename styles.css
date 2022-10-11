@@ -1,0 +1,23 @@
+.navbar{
+  padding-top: 25px !important;
+  padding-bottom: 25px !important;
+}
+
+.container-fluid{
+  margin-left: 35px !important;
+  margin-right: 35px !important;
+  padding-left: 24px !important;
+  padding-right: 24px !important;
+}
+
+.nav-item{
+  padding-left: 40px;
+}
+
+.nav-link{
+font-family: Inter, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+font-size:15px;
+font-weight: 400;
+line-height: 26.25px;
+color: rgb(37, 154, 239)
+}
