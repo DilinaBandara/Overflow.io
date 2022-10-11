@@ -1,6 +1,6 @@
 .navbar{
-  padding-top: 25px !important;
-  padding-bottom: 25px !important;
+  padding-top: 26px !important;
+  padding-bottom: 26px !important;
 }
 
 .container-fluid{
@@ -10,9 +10,13 @@
   padding-right: 24px !important;
 }
 
+/* .header-logo{
+  margin-left: 50px;
+} */
+
 .nav-item{
   padding-left: 40px;
-}
+} 
 
 .nav-link{
 font-family: Inter, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
@@ -20,4 +24,21 @@ font-size:15px;
 font-weight: 400;
 line-height: 26.25px;
 color: rgb(37, 154, 239)
+}
+
+.start-btn{
+  transition: transform,.4s;
+  box-shadow: none;
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+  margin-right: 50px;
+  font-size:15px;
+  font-weight: 550;
+  line-height: 16px;
+  color:  rgb(255, 255, 255)
+}
+
+.sign-in-btn{
+  margin-right: 20px;
 }
