@@ -1,3 +1,7 @@
+body{
+  background-image: url('F:\Overflow.io\Images\background-img.png');
+}
+
 .navbar {
   padding-top: 26px;
   padding-bottom: 26px;
@@ -54,6 +58,11 @@ html {
   margin-right: -12px;
   margin-left: -12px;
   padding-top: 4rem;
+}
+
+.main-topic{
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media (min-width: 1400px) {
