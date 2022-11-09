@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap');
+
 body{
-  background-image: url('Images/background-img.png');
+  background-image: url('assets/background-img.png');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: top;
+  line-height: 1.55;
 }
 
 .navbar {
@@ -11,7 +15,7 @@ body{
 }
 
 body{
-  font-family: Inter,"Helvetica Neue",Arial,"Noto Sans",sans-serif;
+  font-family: 'Inter', sans-serif;
 }
 
 html {
@@ -37,7 +41,7 @@ html {
   border-color: #000;
   margin-right: 50px;
   font-size: 15px;
-  font-weight: 550;
+  font-weight: 500;
   line-height: 16px;
   color: rgb(255, 255, 255);
   padding: 15px;
@@ -74,13 +78,12 @@ html {
 }
 
 .main-topic{
-  font-size: 61px;
-  /* max-width: 615px; */
+  font-size: 56px;
   letter-spacing: -1.2px;
   text-align: center!important;
   margin: 0 0 1rem;
   line-height: 1.15;
-  font-weight: 800 !important;
+  font-weight: 900;
   margin-bottom: 16px;
   color: white;
 }
@@ -96,6 +99,30 @@ html {
   letter-spacing: -.4px;
   color: white;
 }
+
+.btn-conatiner{
+  margin-top: 30px;
+}
+
+.free-trial-btn{
+  margin-left: 145px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.example-btn{
+  margin-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+/* End of main section */
+
+
+
 
 @media (min-width: 1400px) {
 
