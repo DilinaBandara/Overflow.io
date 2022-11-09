@@ -134,6 +134,12 @@ html {
   display: block;
 }
 
+video{
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+}
+
 @media (min-width: 1400px) {
 
   .container,
