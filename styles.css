@@ -121,8 +121,18 @@ html {
 }
 /* End of main section */
 
+.white-text{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
 
+/* Intro to video content section */
 
+.video-holder{
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 @media (min-width: 1400px) {
 
