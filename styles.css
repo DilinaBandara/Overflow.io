@@ -157,7 +157,7 @@ video{
 
 .carding-head{
   margin-bottom: 1rem;
-  font-size: 24px;
+  font-size: 25px;
   line-height: 1.3;
   letter-spacing: -.2px;
   font-weight: 800;
@@ -185,7 +185,7 @@ video{
 
 .company-row{
   padding-top:50px;
-  padding-bottom:  150px;
+  padding-bottom:  180px;
 }
 
 .company-imgs{
@@ -204,11 +204,56 @@ margin-top: 2.5rem!important;
 text-align: center!important;
 }
 
+/* End of company logos */
 
 
+/* Start of Communication section */
 
+.block-head{
+  line-height: 1.1429;
+  margin-bottom: 1.5rem;
+  font-size: 56px;
+  letter-spacing: -.8px;
+  font-weight: 800;
+}
 
+.block-para{
+  font-weight: 500;
+  letter-spacing: -.4px;
+  font-size: 24px;
+  padding-bottom: 32px;
+  line-height:42px;
+  color: rgba(0, 0, 0, 0.6);
+}
 
+.badge {
+  font-weight: 500;
+  font-size: inherit;
+  box-shadow: 0 4px 6px rgb(0 0 0 / 12%), inset 0 2px 4px #fff, inset 0 -2px 2px #eee;
+  padding: 7px 4px;
+  border-radius: 10px;
+  color: #000;
+  background: #fafafc;
+}
+
+.trial-btn{
+  color: #fff;
+  background-color: #000;
+  border-color: #000;
+  transform: translateY(-1px);
+  padding: 13px 22px;
+}
+
+.trial-btn:hover {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+  transform: translateY(-2px);
+}
+
+.video2{
+      height: auto;
+}
 
 @media (min-width: 1400px) {
 
