@@ -209,6 +209,10 @@ text-align: center!important;
 
 /* Start of Communication section */
 
+.block-container{
+  padding-bottom: 80px;
+}
+
 .block-head{
   line-height: 1.1429;
   margin-bottom: 1.5rem;
@@ -252,8 +256,30 @@ text-align: center!important;
 }
 
 .video2{
-      height: auto;
+  height: auto;
 }
+
+.block-subs > h2{
+  font-size: 24px;
+  margin-bottom: 1rem;
+  font-weight: 800;
+  font-size: 24px;
+}
+
+.block-sub-para{
+  font-size: 16px;
+  line-height: 1.75;
+  font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
 
 @media (min-width: 1400px) {
 
