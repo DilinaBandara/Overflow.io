@@ -183,6 +183,11 @@ video{
 
 /* <!-- Start of Company logos --> */
 
+.company-row{
+  padding-top:50px;
+  padding-bottom:  150px;
+}
+
 .company-imgs{
   display: flex;
   align-items: center;
@@ -194,7 +199,10 @@ video{
   height: auto;
 }
 
-
+.company-subtext{
+margin-top: 2.5rem!important;
+text-align: center!important;
+}
 
 
 
