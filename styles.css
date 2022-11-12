@@ -2,11 +2,10 @@
 
 body{
   background-image: url('assets/background-img.png');
-  background-position: center;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   background-position: top;
   line-height: 1.55;
+  background-color: #fff;
 }
 
 .navbar {
@@ -139,6 +138,8 @@ video{
   overflow: hidden;
   position: relative;
   margin-bottom: 100px;
+  width:100%;
+  height:auto; 
 }
 
 
