@@ -310,14 +310,16 @@ font-weight: 400;
 }
 
 
-@media (min-width: 1400px) {
-
-  .container,
-  .container-lg,
-  .container-md,
-  .container-sm,
-  .container-xl,
-  .container-xxl {
-    max-width: 1288px;
-  }
+/* #mobileMenu{
+  display: none;
+  width:100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
 }
+
+.active{
+  display: block !important;
+} */
