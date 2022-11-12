@@ -12,7 +12,7 @@
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="styles.css">
-  <!-- <script src="app.js"></script> -->
+  <script src="app.js"></script>
   <script src="https://kit.fontawesome.com/26815e322b.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -24,7 +24,7 @@
         <a class="header-logo">
           <img src="assets\logo.jpg" alt="logo-image" width="158" height="27">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        <button onclick="navDrop()" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
           aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -233,12 +233,12 @@
 
 </div>
 
-<!-- <div id = "mobileMenu" class="active"> -->
-  <div></div>
+<div id = "mobileMenu">
+  <div>
+    <!-- Add navbar contents here -->
+  </div>
 </div>
 
-
-<script src="app.js"></script>
 </body>
 
 </html>

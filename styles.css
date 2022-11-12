@@ -310,7 +310,7 @@ font-weight: 400;
 }
 
 
-/* #mobileMenu{
+#mobileMenu{
   display: none;
   width:100%;
   height: 100vh;
@@ -322,4 +322,4 @@ font-weight: 400;
 
 .active{
   display: block !important;
-} */
+}
