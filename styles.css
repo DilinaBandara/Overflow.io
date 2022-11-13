@@ -331,4 +331,9 @@ font-weight: 400;
   .navbar{
     background-color: white;
   }
+
+  .nav-container{
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
