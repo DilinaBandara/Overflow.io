@@ -183,21 +183,8 @@ video{
 
 
 /* <!-- Start of Company logos --> */
-
-.company-row{
-  padding-top:50px;
-  padding-bottom:  180px;
-}
-
 .company-imgs{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  padding-left: 40px;
-  padding-right: 40px;
-  height: auto;
+  margin-bottom: 20px;
 }
 
 .company-subtext{
@@ -333,7 +320,12 @@ font-weight: 400;
   }
 
   .nav-container{
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+
+  .navbar{
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
