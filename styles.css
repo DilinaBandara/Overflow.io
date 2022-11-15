@@ -5,13 +5,22 @@ body{
   background-repeat: no-repeat;
   background-position: top;
   line-height: 1.55;
+}
+
+.nav-right-btns{
+  margin-left: 120px
+}
+
+.header{
   background-color: #fff;
 }
 
-
-.navbar {
-  padding-top: 26px;
-  padding-bottom: 26px;
+.fixed-top{
+  position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
 }
 
 body{
@@ -320,10 +329,5 @@ font-weight: 400;
 @media only screen and (max-width: 600px) {
   .navbar{
     background-color: white;
-  }
-
-  .nav-container{
-    padding-left: 0 !important;
-    padding-right: 0 !important;
   }
 }
