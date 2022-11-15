@@ -7,9 +7,14 @@ body{
   line-height: 1.55;
 }
 
+
 .nav-item{
   padding-left: 0.80rem !important;
   padding-right: 0.80rem !important;
+}
+
+.start-btn{
+  padding: 0.9375rem 0.8rem;
 }
 
 body{
@@ -264,27 +269,30 @@ font-weight: 400;
 }
 
 
-#mobileMenu{
-  display: none;
-  width:100%;
-  height: 100vh;
-  position: fixed;
-  top: 0;
-  left: 0;
-  background-color: white;
-  margin-top: 80px;
-}
-
-
-
-.active{
-  display: block !important;
-}
-
-
 /* Media queries */
 @media only screen and (max-width: 600px) {
   .navbar{
     background-color: white;
   }
 }
+
+@media (min-width: 1250px){
+  .container-fluid{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+
+@media (min-width: 1440px){
+  .container-fluid{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .start-btn{
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 22px;
+    padding-right: 22px
+    }
+  }
