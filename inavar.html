@@ -1,41 +1,47 @@
 <header>
-  <div class="nav-container">
-    <nav class="navbar navbar-expand-lg">
-      <a class="header-logo">
-        <img src="assets\logo.jpg" alt="logo-image" width="158" height="27">
-      </a>
-      <button onclick="navDrop()" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse mx-4 navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav me-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Product
-              <i class="fa-solid fa-chevron-down down-arrows"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Resources 
-              <i class="fa-solid fa-chevron-down down-arrows"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Examples</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Download</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Pricing</a>
-          </li>
-        </ul>
-        <div class="d-flex" role="search">
-          <button class="btn sign-in-btn" type="submit">Sign In</button>
-          <button type="button" class="btn btn-dark start-btn" type="submit">Start for free  
-            <i class="fa-solid fa-arrow-right"></i>
-          </button>
-        </div>
+  <div class="header fixed-top" data-header="sticky">
+    <div class="navbar">
+      <div class="container">
+          <div class="nav-container">
+  <nav class="navbar navbar-expand-lg">
+    <a class="header-logo">
+      <img src="assets\logo.jpg" alt="logo-image" width="158" height="27">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+      aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse mx-4 navbar-collapse" id="navbarScroll">
+      <ul class="navbar-nav me-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Product
+            <i class="fa-solid fa-chevron-down down-arrows"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Resources 
+            <i class="fa-solid fa-chevron-down down-arrows"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Examples</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Download</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+        </li>
+      </ul>
+      <div class ="nav-right-btns">
+        <button class="btn sign-in-btn" type="submit">Sign In</button>
+        <button type="button" class="btn btn-dark start-btn" type="submit">Start for free  
+          <i class="fa-solid fa-arrow-right"></i>
+        </button>
       </div>
-    </nav>
+    </div>
+  </nav>
+</div>
+      </div>
+    </div> 
   </div>
 </header>

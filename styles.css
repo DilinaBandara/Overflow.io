@@ -7,62 +7,6 @@ body{
   line-height: 1.55;
 }
 
-.nav-right-btns{
-  margin-left: 120px
-}
-
-.header{
-  background-color: #fff;
-}
-
-.fixed-top{
-  position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-}
-
-body{
-  font-family: 'Inter', sans-serif;
-}
-
-html {
-  font-size: 16px;
-}
-
-.nav-item {
-  font-size: 1rem;
-  margin-left: 40px;
-}
-
-.nav-link{
-  padding: 0.5rem 1rem;
-  padding-left:16px;
-  padding-right:16px ;
-}
-
-.start-btn {
-  transition: transform, .4s;
-  box-shadow: none;
-  background-color: #000;
-  color: #fff;
-  border-color: #000;
-  margin-right: 50px;
-  font-size: 15px;
-  font-weight: 500;
-  line-height: 16px;
-  color: rgb(255, 255, 255);
-  padding: 15px;
-}
-
-.sign-in-btn {
-  margin-right: 20px;
-}
-
-.nav-item .down-arrows{
-  font-size: 10px;
-}
 
 /* Intro container */
 .intro-container{
