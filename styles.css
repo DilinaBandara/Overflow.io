@@ -7,6 +7,19 @@ body{
   line-height: 1.55;
 }
 
+.nav-item{
+  padding-left: 0.80rem !important;
+  padding-right: 0.80rem !important;
+}
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+html {
+  font-size: 16px;
+}
+
 
 /* Intro container */
 .intro-container{
