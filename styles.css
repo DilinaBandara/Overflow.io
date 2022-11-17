@@ -163,7 +163,7 @@ video{
 .company-subtext{
 margin-top: 2.5rem!important;
 text-align: center!important;
-font-size: 16px;
+font-size: 18px;
 font-weight: 400;
 }
 
@@ -272,8 +272,6 @@ font-weight: 400;
 
 /* Media queries */
 @media only screen and (max-width: 600px) {
-  .navbar{
-  }
 
   .main-topic{
     font-size: 40px;
@@ -282,9 +280,6 @@ font-weight: 400;
   .sub-topic{
     font-size: 23px;
     font-weight: 500;
-  }
-
-  .btn-conatiner{
   }
 
   .free-trial-btn{
