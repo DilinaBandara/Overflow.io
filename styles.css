@@ -164,8 +164,6 @@ font-weight: 400;
 margin-bottom: 200px;
 
 }
-.company-subtext{
-}
 
 /* End of company logos */
 
@@ -303,6 +301,17 @@ margin-bottom: 200px;
     margin-bottom: 100px;
   }
 
+  .block-sub-para{
+    margin-bottom: 56px;
+  }
+
+  .block-head{
+    font-size: 50px;
+  }
+
+  .block-para{
+    font-size: 20px;
+  }
 }
 
 @media (min-width: 1250px){
