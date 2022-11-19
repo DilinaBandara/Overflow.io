@@ -240,32 +240,6 @@ margin-bottom: 200px;
 /* End of communication section */
 
 
-/* Start of creativity section */
-
-.creativity-section{
-  padding-top: 128px;
-}
-
-.creative-head{
-  font-size: 48px !important;
-  margin-bottom: 1.5rem!important;
-  letter-spacing: -1.2px;
-  margin: 0 0 1rem;
-  line-height: 55.2px;
-  font-size: 16px;
-  line-height: 1.75;
-  font-weight: 800;
-}
-
-.creative-para{
-  font-size: 24px !important;
-  font-size: 16px;
-  font-weight: 500;
-  line-height:  42px;
-  max-width: 660px;
-  margin-left: auto;
-  margin-right: auto;
-}
 
 
 /* Media queries */
