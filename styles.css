@@ -239,7 +239,10 @@ margin-bottom: 200px;
 
 /* End of communication section */
 
-
+/* Discover section */
+.card1, .card2, .card3{
+  background-color: white;
+}
 
 
 /* Media queries */
