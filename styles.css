@@ -247,7 +247,7 @@ margin-bottom: 200px;
 
 /* Start of Infinite Section */
 .infi-section{
-  margin-bottom:200px;
+  margin-bottom:150px;
 }
 
 .infi-logos{
@@ -407,11 +407,19 @@ margin-bottom: 200px;
   .footer-form{
     margin-bottom:50px;
   }
+
+  .infi-main-img{
+    margin-top: 80px;
+    height:250px
+  }
 }
 
 
 @media (min-width: 1024px){
-
+  .infi-main-img{
+    margin-top: 80px;
+    height:400px
+  }
 }
 
 
