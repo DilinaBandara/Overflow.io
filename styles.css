@@ -245,8 +245,19 @@ margin-bottom: 200px;
   border-radius: 1.5rem;
 }
 
-.card1{
+/* Start of Infinite Section */
+.infi-logos{
+  margin-bottom: 32px;
+}
 
+.infi-header{
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 1.25;
+}
+
+.infi-main-img{
+  border-radius: 2rem;
 }
 
 /* Media queries */
