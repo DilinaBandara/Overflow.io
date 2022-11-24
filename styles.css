@@ -254,10 +254,25 @@ margin-bottom: 200px;
   font-size: 32px;
   font-weight: 700;
   line-height: 1.25;
+
 }
 
 .infi-main-img{
   border-radius: 2rem;
+}
+
+.profile-info{
+  margin-bottom: 1.5rem;
+}
+
+.profile-section{
+  padding-top: 40px;
+  width: 280px;
+}
+
+.case-study-btn{
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 /* Media queries */
