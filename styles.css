@@ -271,8 +271,9 @@ margin-bottom: 200px;
 }
 
 .case-study-btn{
-  padding-top: 10px;
-  padding-bottom: 10px;
+  /* padding-top: 10px;
+  padding-bottom: 10px; */
+  padding: 10px;
 }
 
 /* Media queries */
@@ -319,12 +320,30 @@ margin-bottom: 200px;
   .block-para{
     font-size: 20px;
   }
+
+  .case-study-btn{
+    margin-bottom: 20px;
+  }
+
+  .trial-btn{
+    margin-bottom: 15px;
+  }
 }
 
 @media (min-width: 1250px){
   .container-fluid{
     margin-left: 100px;
     margin-right: 100px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+.trial-btn{
+  margin-bottom: 50px;
+}
+  .company-imgs{
+    align-items: center;
   }
 }
 
