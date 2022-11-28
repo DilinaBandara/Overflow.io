@@ -17,7 +17,35 @@ body{
   font-family: 'Inter', sans-serif;
 }
 
+/* Navbar */
+.nav-item{
+  padding-left: 0.80rem !important;
+  padding-right: 0.80rem !important;
+}
 
+.start-btn{
+  padding: 0.9375rem 0.8rem;
+}
+
+.nav-list{
+  padding-left: 0;
+  list-style: none;
+}
+
+.search-filter{
+  display: flex;
+}
+.search-bar{
+  max-width: 350px;
+}
+
+.search-btn{
+  margin-left: 20px;
+}
+
+.footer{
+  margin-bottom: 50px;
+}
 
 
 /* Intro container */
@@ -275,7 +303,18 @@ margin-bottom: 200px;
 /* End of Infinite Section */
 
 /* Start of footer */
+.footer-items{
+  margin-bottom: 1rem;
+  color: rgba(0,0,0,.6);
+  font-weight: 400;
+}
 
+.footer-text{
+    font-size: .75rem;
+    line-height: 1.6667;
+    color: #666;
+    letter-spacing: -.1px;
+}
 
 
 /* Media queries */

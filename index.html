@@ -21,8 +21,54 @@
 <body>
   <!-- Navbar -->
   <nav class="nav-container">
-
+    <div class="container">
+      <div class="header fixed-top is-fixed" data-header="sticky">
+        <nav class="navbar navbar-expand-lg bg-light">
+          <div class="container-fluid">
+            <div class="navbar-brand" href="#">
+              <a class="header-logo">
+                <img src="assets\logo.jpg" alt="logo-image" width="158" height="27">
+              </a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+              aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+              <ul class="navbar-nav me-auto ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 500px;">
+                <li class="nav-item first-nav-item">
+                  <a class="nav-link active" aria-current="page" href="index.html">Product
+                    <i class="fa-solid fa-chevron-down down-arrows"></i>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link ml-5 active" aria-current="page" href="resources.html">Resources
+                    <i class="fa-solid fa-chevron-down down-arrows"></i></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link active" aria-current="page" href="examples.html">Examples</a>
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Download</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+                </li>
+              </ul>
+              <div class="nav-btn-container">
+                <button class="btn sign-in-btn" type="submit">Sign In</button>
+                <button type="button" class="btn btn-dark start-btn" type="submit">Start for free
+                  <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
   </nav>
+
   <!-- Opening content -->
   <div class="intro-container container ">
     <div class="content-holder">
@@ -230,7 +276,51 @@
 
   <!-- Footer -->
   <footer class="footer-container">
-
+    <div class="container footer">
+      <div class="row">
+        <div class="col-6 col-md-3 col-lg-2 mt-4">
+          <h3 class="footer-title">Product</h3>
+          <ul class="nav-list">
+            <li class="footer-items">How it works</li>
+            <li class="footer-items">Features</li>
+            <li class="footer-items">Intergrations</li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mt-4">
+          <h3 class="footer-title">Use Cases</h3>
+          <ul class="nav-list">
+            <li class="footer-items">Product Teams</li>
+            <li class="footer-items">Design Teams</li>
+            <li class="footer-items">Design Agencies</li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mt-4">
+          <h3 class="footer-title">Resources</h3>
+          <ul class="nav-list">
+            <li class="footer-items">Examples</li>
+            <li class="footer-items">Help Center</li>
+            <li class="footer-items">Support</li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mt-4">
+          <h3 class="footer-title">About</h3>
+          <ul class="nav-list">
+            <li class="footer-items">Out Story</li>
+            <li class="footer-items">Media Kit</li>
+            <li class="footer-items">Blog</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 footer-form">
+          <img src="assets\footer-logo.png" class="footer-logo img-fluid" width="158" height="27">
+          <p class="footer-text">Get the latest news about Overflow’s new features & product updates.</p>
+          <div class="search-filter">
+            <input type="search" class="form-control rounded search-bar" placeholder="Your email" aria-label="Search"
+              aria-describedby="search-addon" />
+            <button type="button" class="btn btn-dark search-btn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
 
   </div>
