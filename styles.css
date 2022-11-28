@@ -7,24 +7,17 @@ body{
   line-height: 1.55;
 }
 
-
-
-.nav-item{
-  padding-left: 0.80rem !important;
-  padding-right: 0.80rem !important;
+html {
+  font-size: 16px;
 }
 
-.start-btn{
-  padding: 0.9375rem 0.8rem;
-}
+
 
 body{
   font-family: 'Inter', sans-serif;
 }
 
-html {
-  font-size: 16px;
-}
+
 
 
 /* Intro container */
@@ -283,51 +276,7 @@ margin-bottom: 200px;
 
 /* Start of footer */
 
-.footer-logo{
-  margin-bottom: 25px;
-}
 
-.footer-title{
-  font-size: 1rem;
-    margin-bottom: 1.5rem;
-    font-weight: 700;
-    letter-spacing: -.1px;
-    margin: 0 0 1rem;
-    line-height: 1.15;
-}
-
-.nav-list{
-  padding-left: 0;
-  list-style: none;
-}
-
-.footer-items{
-  margin-bottom: 1rem;
-  color: rgba(0,0,0,.6);
-  font-weight: 400;
-}
-
-.footer-text{
-    font-size: .75rem;
-    line-height: 1.6667;
-    color: #666;
-    letter-spacing: -.1px;
-}
-
-.search-filter{
-  display: flex;
-}
-.search-bar{
-  max-width: 350px;
-}
-
-.search-btn{
-  margin-left: 20px;
-}
-
-.footer{
-  margin-bottom: 50px;
-}
 
 /* Media queries */
 @media only screen and (max-width: 600px) {
