@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;800&display=swap');
+
+body{
+  background-image: white;
+  background-repeat: no-repeat;
+  background-position: top;
+  line-height: 1.55;
+}
+
+html {
+  font-size: 16px;
+}
+
+
+body{
+  font-family: 'Inter', sans-serif;
+}
+
+/* Navbar */
+.nav-item{
+  padding-left: 0.80rem !important;
+  padding-right: 0.80rem !important;
+}
+
+.start-btn{
+  padding: 0.9375rem 0.8rem;
+}
+
+.nav-list{
+  padding-left: 0;
+  list-style: none;
+}
+
+
+/* Main topic */
+
+.main-topic-container{
+  margin-bottom: 200px;
+  padding-top: 70px;
+  margin-top: 40px;
+}
+
+.main-box{
+  margin-left: 320px;
+  margin-right: 300px;
+}
+
+.main-box-head{
+  font-weight: 700;
+  font-size: 48px;
+}
+
+
+.main-box-para{
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+
+
+/* Footer */
+.search-filter{
+  display: flex;
+}
+.search-bar{
+  max-width: 350px;
+}
+
+.search-btn{
+  margin-left: 20px;
+}
+
+.footer{
+  margin-bottom: 50px;
+}
