@@ -34,7 +34,7 @@ body{
 /* Main topic */
 
 .main-topic-container{
-  margin-bottom: 200px;
+  margin-bottom: 70px;
   padding-top: 70px;
   margin-top: 40px;
 }
@@ -48,12 +48,55 @@ body{
   font-size: 48px;
 }
 
-
 .main-box-para{
   font-size: 1.25rem;
   font-weight: 500;
   font-size: 24px;
 }
+
+
+/* Main content section */
+.content-imgs{
+  border-radius: 0.5rem;
+  max-width: 520px;
+}
+
+.content-head{
+  font-size: 32px;
+  letter-spacing: -.4px;
+  margin: 0 0 1rem;
+  line-height: 1.15;
+  font-weight: 800;
+}
+
+.content-para{
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.content-section{
+  margin-bottom: 70px;
+}
+
+.side-head{
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 1rem;
+}
+
+.side-nav-list{
+  list-style: none;
+  font-size: .875rem;
+  line-height: 1.125;
+}
+
+.side-nav-item{
+  margin-top: 0.5rem;
+  padding: 0.5rem 0;
+  position: relative;
+  padding-left: 1rem;
+}
+
 
 
 /* Footer */
