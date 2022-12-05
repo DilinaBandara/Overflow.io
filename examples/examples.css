@@ -39,10 +39,6 @@ body{
   margin-top: 40px;
 }
 
-.main-box{
-
-}
-
 .main-box-head{
   font-weight: 700;
   font-size: 48px;
@@ -142,6 +138,41 @@ body{
 
 /* Media Queries */
 @media only screen and (max-width: 600px) {
+  .nav-item{
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: #000;
+    font-weight: 700;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    z-index: 3;
+    margin-left: 50px;
+  }
+  .sign-in-btn{
+    background-color: #f0f0f2;
+    margin-bottom: 15px;
+  }
+
+  .sign-in-btn, .start-btn{
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .nav-btn-container{
+    margin-top: 130px;
+  }
+
+  .first-nav-item{
+    margin-top: 30px;
+  }
+
   .main-box {
     margin-left: 0px;
     margin-right: 0px;
@@ -150,6 +181,14 @@ body{
   .footer-form{
     margin-top: 50px;
     margin-bottom: 50px;
+  }
+
+  .content-head{
+    margin-top: 20px;
+  }
+
+  .row1, .row2{
+    padding-bottom: 50px;
   }
 }
 
