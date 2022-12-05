@@ -56,13 +56,10 @@ body{
 
 
 /* Main content section */
-.content-section{
-
-}
 
 .content-imgs{
   border-radius: 0.7rem;
-  max-width: 520px;
+  max-width: 100%;
 }
 
 .content-head{
@@ -126,6 +123,22 @@ body{
   margin-bottom: 50px;
 }
 
+.footer-items{
+  margin-bottom: 1rem;
+  color: rgba(0,0,0,.6);
+  font-weight: 400;
+}
+
+.footer-text{
+    font-size: .75rem;
+    line-height: 1.6667;
+    color: #666;
+    letter-spacing: -.1px;
+}
+
+.footer-title{
+  font-size: 20px;
+}
 
 /* Media Queries */
 @media only screen and (max-width: 600px) {
@@ -134,7 +147,9 @@ body{
     margin-right: 0px;
   }
 
-  .main-box-head{
+  .footer-form{
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
 }
 
