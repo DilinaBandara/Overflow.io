@@ -31,7 +31,6 @@ body{
   list-style: none;
 }
 
-
 /* Main topic */
 
 .main-topic-container{
@@ -41,8 +40,7 @@ body{
 }
 
 .main-box{
-  margin-left: 320px;
-  margin-right: 300px;
+
 }
 
 .main-box-head{
@@ -56,7 +54,6 @@ body{
   font-weight: 500;
   font-size: 24px;
 }
-
 
 
 /* Footer */
@@ -73,4 +70,30 @@ body{
 
 .footer{
   margin-bottom: 50px;
+}
+
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .main-box {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .main-box-head{
+  }
+}
+
+@media (min-width: 1440px){
+  .container-fluid{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media (min-width: 1250px){
+  .container-fluid{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
 }
