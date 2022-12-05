@@ -106,7 +106,9 @@ body{
   margin-top: 30px;
 }
 
-
+.row1, .row2{
+  padding-bottom: 100px;
+}
 
 /* Footer */
 .search-filter{
