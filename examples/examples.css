@@ -39,10 +39,6 @@ body{
   margin-top: 40px;
 }
 
-.main-box{
-
-}
-
 .main-box-head{
   font-weight: 700;
   font-size: 48px;
@@ -56,9 +52,10 @@ body{
 
 
 /* Main content section */
+
 .content-imgs{
-  border-radius: 0.5rem;
-  max-width: 520px;
+  border-radius: 0.7rem;
+  max-width: 100%;
 }
 
 .content-head{
@@ -82,6 +79,7 @@ body{
   font-weight: 700;
   color: #000;
   margin-bottom: 1rem;
+  padding-left: 2rem;
 }
 
 .side-nav-list{
@@ -97,7 +95,13 @@ body{
   padding-left: 1rem;
 }
 
+.launch-example{
+  margin-top: 30px;
+}
 
+.row1, .row2{
+  padding-bottom: 100px;
+}
 
 /* Footer */
 .search-filter{
@@ -115,15 +119,76 @@ body{
   margin-bottom: 50px;
 }
 
+.footer-items{
+  margin-bottom: 1rem;
+  color: rgba(0,0,0,.6);
+  font-weight: 400;
+}
+
+.footer-text{
+    font-size: .75rem;
+    line-height: 1.6667;
+    color: #666;
+    letter-spacing: -.1px;
+}
+
+.footer-title{
+  font-size: 20px;
+}
 
 /* Media Queries */
 @media only screen and (max-width: 600px) {
+  .nav-item{
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: #000;
+    font-weight: 700;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    align-items: center;
+    z-index: 3;
+    margin-left: 50px;
+  }
+  .sign-in-btn{
+    background-color: #f0f0f2;
+    margin-bottom: 15px;
+  }
+
+  .sign-in-btn, .start-btn{
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .nav-btn-container{
+    margin-top: 130px;
+  }
+
+  .first-nav-item{
+    margin-top: 30px;
+  }
+
   .main-box {
     margin-left: 0px;
     margin-right: 0px;
   }
 
-  .main-box-head{
+  .footer-form{
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .content-head{
+    margin-top: 20px;
+  }
+
+  .row1, .row2{
+    padding-bottom: 50px;
   }
 }
 
