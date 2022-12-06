@@ -111,3 +111,18 @@ body{
     margin-bottom: 50px;
   }
 }
+
+
+@media (min-width: 1440px){
+  .container-fluid{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
+
+@media (min-width: 1250px){
+  .container-fluid{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+}
