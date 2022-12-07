@@ -150,6 +150,9 @@ body{
     z-index: 3;
     margin-left: 50px;
   }
+  .main-topic-container {
+    margin-bottom: 50px;
+  }
   .sign-in-btn{
     background-color: #f0f0f2;
     margin-bottom: 15px;
@@ -182,6 +185,10 @@ body{
     margin-top: 50px;
     margin-bottom: 50px;
   }
+
+  .footer {
+    margin-bottom: 10px;
+}
 
   .content-head{
     margin-top: 50px;
