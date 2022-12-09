@@ -31,7 +31,112 @@ body{
   list-style: none;
 }
 
+/* Main topic */
+.dual-box{
+  margin-bottom: 70px;
+  padding-top: 70px;
+  margin-top: 100px;
+}
+
+.dual-box-head{
+  font-weight: 800;
+  font-size: 32px;
+}
+
+.dual-box-para{
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.75;
+  text-align: left;
+  margin-bottom: 56px;
+}
+
+.btn-success{
+  transition: transform,.4s;
+  box-shadow: none;
+  background-color: #149bfe;
+  color: #fff;
+  border-color: #149bfe;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+a{
+  transition: color .35s,background-color .35s;
+  color: #0085e4;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.download-mac-btn{
+  margin-top: 12px;
+}
+
+.select-os-text{
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 1.7143;
+  color: #6c7582;
+  text-align: left;
+}
+
+
+/* Group holder */
+
+.group-holder{
+  padding-left:32px;
+  padding-right:32px;
+  margin-left:76px;
+  margin-right:76px;
+  margin-bottom: 100px;
+}
+
+.block-subtitle{
+  font-size: 24px;
+  margin-bottom: 0.75rem;
+  letter-spacing: -.2px;
+  font-weight: 800;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.block-text{
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1.75;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.block-text-para{
+  margin-bottom: 32px;
+}
+
+/* Brand logo container */
+.brand-logo-container{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #d6f3ff;
+}
+
+.logo-top-text{
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.company-imgs {
+  margin-bottom: 20px;
+}
+
+
 /* Footer */
+.footer{
+  padding-top: 120px;
+}
 .search-filter{
   display: flex;
 }
@@ -63,6 +168,9 @@ body{
 .footer-title{
   font-size: 20px;
 }
+
+
+/* Content Section */
 
 /* Media Queries */
 @media only screen and (max-width: 600px) {
@@ -110,8 +218,70 @@ body{
     margin-top: 50px;
     margin-bottom: 50px;
   }
+
+  .content-head{
+    margin-top: 20px;
+  }
+
+  .row1, .row2{
+    padding-bottom: 50px;
+  }
+
+  .btn-success{
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  .intro-section__footer-content {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .download-mac-btn{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .dual-box-head{
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .dual-box{
+    padding-top: 5px;
+    margin-top: 100px;
+  }
+
+  .dual-box-para{
+    text-align: center;
 }
 
+  .select-os-text{
+    margin-bottom: 24px;
+
+  }
+
+  .download-mac-text{
+    /* margin-left: 100px; */
+  }
+
+  .group-holder{
+    padding-left:0px;
+    padding-right:0px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-bottom:0px;
+  }
+
+  .block-links{
+    text-align: left;
+    margin-bottom: 70px;
+  }
+
+  .block-text-para {
+    margin-bottom: 25px;
+}
+}
 
 @media (min-width: 1440px){
   .container-fluid{

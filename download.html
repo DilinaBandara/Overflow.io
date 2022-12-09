@@ -11,7 +11,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
     crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="download/download.css">
+  <link rel="stylesheet" href="download\download.css">
   <script src="https://kit.fontawesome.com/26815e322b.js" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -45,7 +45,7 @@
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Download</a>
+                  <a class="nav-link active" aria-current="page" href="download.html">Download</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link active" aria-current="page" href="#">Pricing</a>
@@ -64,27 +64,170 @@
     </div>
   </nav>
 
-  <!-- Content -->
-  <div class="container content-contain">
-    <div class="row">
-      <div class="col">
-        <h1>Try OVerflow for free</h1>
-        <div class="download-desc">
-          <p>
-            Overflow is a UX app that helps you create, edit, and share captivating user flow diagrams and stunning
-            design presentations. Bring in your designs from your favorite design tool (Figma, Sketch, Adobe XD) and
-            create beautiful interactive user flows to experience your user journey in just minutes. Work together with
-            your team, and collaborate to build design presentations that communicate your designs to stakeholders with
-            ease.
-          </p>
+  <!-- Dual Content Container -->
+  <div class="container dual-column-container">
+    <div class="dual-box">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 ">
+            <h3 class="dual-box-head">
+              Try Overflow for free
+            </h3>
+            <p class="dual-box-para">
+              Overflow is a UX app that helps you create, edit, and share captivating user flow diagrams and stunning
+              design presentations. Bring in your designs from your favorite design tool (Figma, Sketch, Adobe XD) and
+              create beautiful interactive user flows to experience your user journey in just minutes. Work together
+              with your team, and collaborate to build design presentations that communicate your designs to
+              stakeholders with ease.
+            </p>
+            <div class="download-win-btn">
+              <button class="btn btn-success" id="downloadAppBtn" value="win"><span>Download for Windows</span><i
+                  class="icon-windows"></i></button>
+            </div>
+            <div class="download-mac-btn">
+              <div class="download-content">
+                <a href="" class="download-mac-text" title="Download for Mac">Download for Mac</a>
+                <div class="select-os-text ">Compatible with Windows 10 or above. Min 4GB RAM.</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <img src="assets\box-head-image.png" class="box-head-image img-fluid">
+          </div>
         </div>
       </div>
-      <div class="col">
-        One of three columns
+    </div>
+  </div>
+  </div>
+
+  <!-- Group holder -->
+  <div class="container group-holder">
+    <div class="row">
+      <div class="col-lg-4 col-sm-12">
+        <h2 class="block-subtitle d-flex">How it Works</h2>
+        <div class="block-text">
+          <p class="block-text-para">A step-by-step guide to help you build your first Overflow diagram or design
+            presentation in minutes.</p>
+          <div class="block-links">
+            <a class="link--arrow-right" href="/how-it-works/">Get started &nbsp; <i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-12">
+        <h2 class="block-subtitle d-flex">Intergrations</h2>
+        <div class="block-text">
+          <p class="block-text-para">Overflow integrates with the most popular design and collaboration tools. Explore
+            all the available plugins.</p>
+          <div class="block-links">
+            <a class="link--arrow-right" href="/how-it-works/">See all intergrations &nbsp; <i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-sm-12">
+        <h2 class="block-subtitle d-flex">Features</h2>
+        <div class="block-text">
+          <p class="block-text-para">From visualizing user journeys to getting actionable feedback, Overflow’s got your
+            back with its powerful features.
+          </p>
+          <div class="block-links">
+            <a class="link--arrow-right" href="/how-it-works/">Explore features &nbsp; <i class="fa-solid fa-chevron-right"></i></a>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
+  <!-- Brand logo section -->
+  <div class="brand-logo-container">
+    <div class="container">
+      <div class="logo-top-text d-flex justify-content-center">
+        <p class="logo-text">Trusted by more than 500,000 designers and product managers across the globe</p>
+      </div>
+      <div class="row">
+        <div class="col col-md-4 col-lg-2">
+          <div class="company-imgs text-center">
+            <img src="assets\yahoo.png">
+          </div>
+        </div>
+        <div class="col col-md-4 col-lg-2">
+          <div class="company-imgs text-center">
+            <img src="assets\amazon.png">
+          </div>
+        </div>
+        <div class="col col-md-4 col-lg-2">
+          <div class="company-imgs text-center">
+            <img src="assets\facebook.png">
+          </div>
+        </div>
+        <div class="col col-md-4 col-lg-2">
+          <div class="company-imgs text-center">
+            <img src="assets\microsoft.png">
+          </div>
+        </div>
+        <div class="col col-md-4 col-lg-2">
+          <div class="company-imgs text-center">
+            <img src="assets\netflix.png">
+          </div>
+        </div>
+        <div class="col col-md-4 col-lg-2">
+          <div class="company-imgs text-center">
+            <img src="assets\spotify.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer-container">
+    <div class="container footer">
+      <div class="row">
+        <div class="col-6 col-md-3 col-lg-2 mt-4">
+          <h3 class="footer-title">Product</h3>
+          <ul class="nav-list">
+            <li class="footer-items">How it works</li>
+            <li class="footer-items">Features</li>
+            <li class="footer-items">Intergrations</li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mt-4">
+          <h3 class="footer-title">Use Cases</h3>
+          <ul class="nav-list">
+            <li class="footer-items">Product Teams</li>
+            <li class="footer-items">Design Teams</li>
+            <li class="footer-items">Design Agencies</li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mt-4">
+          <h3 class="footer-title">Resources</h3>
+          <ul class="nav-list">
+            <li class="footer-items">Examples</li>
+            <li class="footer-items">Help Center</li>
+            <li class="footer-items">Support</li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-3 col-lg-2 mt-4">
+          <h3 class="footer-title">About</h3>
+          <ul class="nav-list">
+            <li class="footer-items">Out Story</li>
+            <li class="footer-items">Media Kit</li>
+            <li class="footer-items">Blog</li>
+          </ul>
+        </div>
+        <div class="col-lg-4 footer-form">
+          <img src="assets\footer-logo.png" class="footer-logo img-fluid" width="158" height="27">
+          <p class="footer-text">Get the latest news about Overflow’s new features & product updates.</p>
+          <div class="search-filter">
+            <input type="search" class="form-control rounded search-bar" placeholder="Your email" aria-label="Search"
+              aria-describedby="search-addon" />
+            <button type="button" class="btn btn-dark search-btn">Subscribe</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 
 </html>
