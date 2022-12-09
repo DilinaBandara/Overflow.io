@@ -104,37 +104,6 @@ body{
 }
 
 /* Footer */
-.search-filter{
-  display: flex;
-}
-.search-bar{
-  max-width: 350px;
-}
-
-.search-btn{
-  margin-left: 20px;
-}
-
-.footer{
-  margin-bottom: 50px;
-}
-
-.footer-items{
-  margin-bottom: 1rem;
-  color: rgba(0,0,0,.6);
-  font-weight: 400;
-}
-
-.footer-text{
-    font-size: .75rem;
-    line-height: 1.6667;
-    color: #666;
-    letter-spacing: -.1px;
-}
-
-.footer-title{
-  font-size: 20px;
-}
 
 
 /* Content Section */
