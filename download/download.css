@@ -85,6 +85,37 @@ a{
 }
 
 
+/* Group holder */
+
+.group-holder{
+  padding-left:32px;
+  padding-right:32px;
+  margin-left:76px;
+  margin-right:76px;
+  margin-bottom: 100px;
+}
+
+.block-subtitle{
+  font-size: 24px;
+  margin-bottom: 0.75rem;
+  letter-spacing: -.2px;
+  font-weight: 800;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.block-text{
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1.75;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+.block-text-para{
+  margin-bottom: 32px;
+}
+
 /* Footer */
 .search-filter{
   display: flex;
@@ -203,7 +234,6 @@ a{
   .dual-box-para{
     text-align: center;
 }
-  }
 
   .select-os-text{
     margin-bottom: 24px;
@@ -213,6 +243,24 @@ a{
   .download-mac-text{
     /* margin-left: 100px; */
   }
+
+  .group-holder{
+    padding-left:0px;
+    padding-right:0px;
+    margin-left:0px;
+    margin-right:0px;
+    margin-bottom:0px;
+  }
+
+  .block-links{
+    text-align: left;
+    margin-bottom: 70px;
+  }
+
+  .block-text-para {
+    margin-bottom: 25px;
+}
+}
 
 @media (min-width: 1440px){
   .container-fluid{
