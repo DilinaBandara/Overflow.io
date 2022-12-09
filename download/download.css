@@ -134,6 +134,9 @@ a{
 
 
 /* Footer */
+.footer{
+  padding-top: 120px;
+}
 .search-filter{
   display: flex;
 }
