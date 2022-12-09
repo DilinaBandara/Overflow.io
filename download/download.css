@@ -242,15 +242,23 @@ a{
     margin-right: auto;
   }
 
-    .dual-box{
-      padding-top: 5px;
-      margin-top: 100px;
-    }
+  .dual-box{
+    padding-top: 5px;
+    margin-top: 100px;
+  }
+
+  .dual-box-para{
+    text-align: center;
+}
+  }
 
   .select-os-text{
     margin-bottom: 24px;
   }
-}
+
+  .download-mac-text{
+    margin-left: 100px;
+  }
 
 @media (min-width: 1440px){
   .container-fluid{
@@ -263,5 +271,12 @@ a{
   .container-fluid{
     margin-left: 100px;
     margin-right: 100px;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .dual-box-head {
+    font-size: 30px;
+    text-align: center;
   }
 }
