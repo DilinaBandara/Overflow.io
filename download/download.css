@@ -81,60 +81,9 @@ a{
   font-size: 14px;
   line-height: 1.7143;
   color: #6c7582;
+  text-align: left;
 }
 
-
-/* Main content section */
-
-.content-imgs{
-  border-radius: 0.7rem;
-  max-width: 100%;
-}
-
-.content-head{
-  font-size: 32px;
-  letter-spacing: -.4px;
-  margin: 0 0 1rem;
-  line-height: 1.15;
-  font-weight: 800;
-}
-
-.content-para{
-  font-size: 16px;
-  line-height: 1.75;
-}
-
-.content-section{
-  margin-bottom: 70px;
-}
-
-.side-head{
-  font-weight: 700;
-  color: #000;
-  margin-bottom: 1rem;
-  padding-left: 2rem;
-}
-
-.side-nav-list{
-  list-style: none;
-  font-size: .875rem;
-  line-height: 1.125;
-}
-
-.side-nav-item{
-  margin-top: 0.5rem;
-  padding: 0.5rem 0;
-  position: relative;
-  padding-left: 1rem;
-}
-
-.launch-example{
-  margin-top: 30px;
-}
-
-.row1, .row2{
-  padding-bottom: 100px;
-}
 
 /* Footer */
 .search-filter{
@@ -242,6 +191,10 @@ a{
     margin-right: auto;
   }
 
+  .dual-box-head{
+    text-align: center;
+  }
+
   .dual-box{
     padding-top: 5px;
     margin-top: 100px;
@@ -254,10 +207,11 @@ a{
 
   .select-os-text{
     margin-bottom: 24px;
+
   }
 
   .download-mac-text{
-    margin-left: 100px;
+    /* margin-left: 100px; */
   }
 
 @media (min-width: 1440px){
@@ -271,12 +225,5 @@ a{
   .container-fluid{
     margin-left: 100px;
     margin-right: 100px;
-  }
-}
-
-@media only screen and (min-width: 375px) {
-  .dual-box-head {
-    font-size: 30px;
-    text-align: center;
   }
 }
