@@ -31,6 +31,111 @@ body{
   list-style: none;
 }
 
+/* Main topic */
+.dual-box{
+  margin-bottom: 70px;
+  padding-top: 70px;
+  margin-top: 100px;
+}
+
+.dual-box-head{
+  font-weight: 800;
+  font-size: 32px;
+}
+
+.dual-box-para{
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.75;
+  text-align: left;
+  margin-bottom: 56px;
+}
+
+.btn-success{
+  transition: transform,.4s;
+  box-shadow: none;
+  background-color: #149bfe;
+  color: #fff;
+  border-color: #149bfe;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+a{
+  transition: color .35s,background-color .35s;
+  color: #0085e4;
+  font-weight: 500;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+}
+
+.download-mac-btn{
+  margin-top: 12px;
+}
+
+.select-os-text{
+  margin-top: 16px;
+  font-size: 14px;
+  line-height: 1.7143;
+  color: #6c7582;
+}
+
+
+/* Main content section */
+
+.content-imgs{
+  border-radius: 0.7rem;
+  max-width: 100%;
+}
+
+.content-head{
+  font-size: 32px;
+  letter-spacing: -.4px;
+  margin: 0 0 1rem;
+  line-height: 1.15;
+  font-weight: 800;
+}
+
+.content-para{
+  font-size: 16px;
+  line-height: 1.75;
+}
+
+.content-section{
+  margin-bottom: 70px;
+}
+
+.side-head{
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+.side-nav-list{
+  list-style: none;
+  font-size: .875rem;
+  line-height: 1.125;
+}
+
+.side-nav-item{
+  margin-top: 0.5rem;
+  padding: 0.5rem 0;
+  position: relative;
+  padding-left: 1rem;
+}
+
+.launch-example{
+  margin-top: 30px;
+}
+
+.row1, .row2{
+  padding-bottom: 100px;
+}
+
 /* Footer */
 .search-filter{
   display: flex;
@@ -63,6 +168,9 @@ body{
 .footer-title{
   font-size: 20px;
 }
+
+
+/* Content Section */
 
 /* Media Queries */
 @media only screen and (max-width: 600px) {
@@ -110,8 +218,35 @@ body{
     margin-top: 50px;
     margin-bottom: 50px;
   }
-}
 
+  .content-head{
+    margin-top: 20px;
+  }
+
+  .row1, .row2{
+    padding-bottom: 50px;
+  }
+
+  .btn-success{
+    flex-grow: 1;
+    width: 100%;
+  }
+
+  .intro-section__footer-content {
+    margin-top: 2rem;
+    text-align: center;
+  }
+
+  .download-mac-btn{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+    .dual-box{
+      padding-top: 5px;
+      margin-top: 100px;
+    }
+}
 
 @media (min-width: 1440px){
   .container-fluid{
